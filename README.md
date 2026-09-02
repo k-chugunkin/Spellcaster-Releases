@@ -1,3 +1,32 @@
+# Spellcaster v2.2.0 Release Notes
+## Application
+### Minor Changes
+-	added restriction to launch more than 1 instance of the app on one machine
+-	unserialized DSharp events no longer display in the Log
+
+## Commands
+-	`/origin species` restructured to work with options lacking image
+-	restructured `/armor` and `/weapon` - redundent code removed, minor formatting for better readability
+-	restructured `/gear adv` and `/random gear` commands to accommodate Source
+-	`private static readonly string invisibleSpace` removed as redundent
+-	new command added: `/class fighter arcane_shot`
+
+## Content
+-	Arcana Unleashed (2026): Backgrounds, Feats, Spells, Subclasses, Magic Items (exc. Evolving) added.
+-	Standard Armor descriptions added
+-	Bastions from "Eberron: Forge of the Artificer (2025)" added
+-	Bastions from "Ravenloft: The Horrors Within (2026)" added
+-	"Icewind Dale: Rime of the Frostmaiden (2020)" adventuring gear added
+
+### Minor Changes
+-	thumbnail for Genie Robe added
+-	DndBeyond Drop, August 2026 added
+-	Drops Errata (as of August 2026) implemented
+-	Source added for Adventuring Gear, Bastions, Speicies, Spells
+
+## Bugs fixed:
+-	`/origin species Dhampir`: "Image not found. Please check the path." fixed (see Commands category)
+
 # Spellcaster v2.0.1 Release Notes
 ## Application
 ### Minor changes
