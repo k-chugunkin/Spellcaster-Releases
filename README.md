@@ -1,3 +1,17 @@
+# Spellcaster v2.2.1 Release Notes
+### Application
+-	All images have been converted to `.webp` format
+
+### Commands
+-	Each Subclass now has a unique thumbnail
+
+### Content
+-	D&D Beyond Drops (September 2026) added
+-	Evolving Magic Items from "Arcana Unleashed" added
+
+### Minor Changes
+-	the word "Description" has been removed for all spells.
+
 # Spellcaster v2.2.0 Release Notes
 ## Application
 ### Minor Changes
