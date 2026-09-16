@@ -1,3 +1,23 @@
+# Spellcaster v2.2.2 Release Notes
+## Application
+-	All images have been converted to `.webp` format
+-	The Command button now opens a native UI window instead of the default OS app for .txt files.
+
+## Commands
+-	Each Subclass now has a unique thumbnail
+-	Cursed Magic Items don't include the curse anymore. The version with the curse is sent to a DM directly.
+-	`/random magicitem` and `/random hoard` pools will now include "Arcana Unleashed"
+
+## Content
+-	D&D Beyond Drops (September 2026) added
+-	Evolving Magic Items from "Arcana Unleashed" added
+-	Magic Items from "Arcana Unleashed: Deadfall" added
+-	Magic Items from "Tales from the Yawning Portal" added
+-	Magic Items from "Quests from the Infinite Staircase" added (excl. Artifacts and Technology)
+
+## Minor Changes
+-	the word "Description" has been removed for all spells.
+
 # Spellcaster v2.2.1 Release Notes
 ### Application
 -	All images have been converted to `.webp` format
