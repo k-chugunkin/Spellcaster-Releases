@@ -23,7 +23,7 @@
 -	Minor text amendments to `/start` command
 
 ### Legacy Content
-- Added Magic Items from:
+Added Magic Items from:
 -	Curse of Strahd [Legacy]
 -	Lost Mine of Phandelver [Legacy]
 -	Out of the Abyss [Legacy]
@@ -31,6 +31,6 @@
 -	Storm King's Thunder [Legacy]
 -	Tyrrany of Dragons [Legacy]
 
-- Added Spells from:
+Added Spells from:
 -	Tasha's Cauldron of Everything [Legacy]
 -	Fizban's Treasury of Dragons [Legacy]
