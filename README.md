@@ -1,101 +1,36 @@
-# Spellcaster v2.2.2 Release Notes
-## Application
--	All images have been converted to `.webp` format
--	The Command button now opens a native UI window instead of the default OS app for .txt files.
+# Spellcaster v2.3.0 Release Notes
 
-## Commands
--	Each Subclass now has a unique thumbnail
--	Cursed Magic Items don't include the curse anymore. The version with the curse is sent to a DM directly.
--	`/random magicitem` and `/random hoard` pools will now include "Arcana Unleashed"
+## Application
+-	New theme: "D&DxWoW"
+-	"Commands" button renamed to "Bot Info" and now displayes Commands and Sources
+-	New option in Settings window added: Magic Item Sources
+-	Settings window UI redesigned
+-	Theme-dependent sounds added for bot Connect/Disconnect
+-	Audio settings added to the Settings window
+-	Release Date (month, year) is added in the About Window
 
 ## Content
--	D&D Beyond Drops (September 2026) added
--	Evolving Magic Items from "Arcana Unleashed" added
--	Magic Items from "Arcana Unleashed: Deadfall" added
--	Magic Items from "Tales from the Yawning Portal" added
--	Magic Items from "Quests from the Infinite Staircase" added (excl. Artifacts and Technology)
+-	Bastions from "Arcana Unleashed" added
+-	D&D Beyond Drops (October 2026) added
+-	Year removed for all Sources
+-	[Legacy] tag added for 5e Sources.
+-	Fix: source for some spells from "Tasha's Cauldron of Everything [Legacy]" were indicated as "Player's Handbook"
+-	`’` (U+2019) has been replaced with `'` (U-0027) for all Dictionary keys (names only)
+-	Fix: Fighter non-subclass features return error
+-	Fix: Trident displays incorrect damage
+-	Fix: Sleep spell - incorrect description
+-	Fix: Magic item "Quaal’s Feather Token" restructured by type
+-	Minor text amendments to `/start` command
 
-## Minor Changes
--	the word "Description" has been removed for all spells.
+### Legacy Content
+- Added Magic Items from:
+-	Curse of Strahd [Legacy]
+-	Lost Mine of Phandelver [Legacy]
+-	Out of the Abyss [Legacy]
+-	Princes of the Apocalypse [Legacy]
+-	Storm King's Thunder [Legacy]
+-	Tyrrany of Dragons [Legacy]
 
-# Spellcaster v2.2.1 Release Notes
-### Application
--	All images have been converted to `.webp` format
-
-### Commands
--	Each Subclass now has a unique thumbnail
-
-### Content
--	D&D Beyond Drops (September 2026) added
--	Evolving Magic Items from "Arcana Unleashed" added
-
-### Minor Changes
--	the word "Description" has been removed for all spells.
-
-# Spellcaster v2.2.0 Release Notes
-## Application
-### Minor Changes
--	added restriction to launch more than 1 instance of the app on one machine
--	unserialized DSharp events no longer display in the Log
-
-## Commands
--	`/origin species` restructured to work with options lacking image
--	restructured `/armor` and `/weapon` - redundent code removed, minor formatting for better readability
--	restructured `/gear adv` and `/random gear` commands to accommodate Source
--	`private static readonly string invisibleSpace` removed as redundent
--	new command added: `/class fighter arcane_shot`
-
-## Content
--	Arcana Unleashed (2026): Backgrounds, Feats, Spells, Subclasses, Magic Items (exc. Evolving) added.
--	Standard Armor descriptions added
--	Bastions from "Eberron: Forge of the Artificer (2025)" added
--	Bastions from "Ravenloft: The Horrors Within (2026)" added
--	"Icewind Dale: Rime of the Frostmaiden (2020)" adventuring gear added
-
-### Minor Changes
--	thumbnail for Genie Robe added
--	DndBeyond Drop, August 2026 added
--	Drops Errata (as of August 2026) implemented
--	Source added for Adventuring Gear, Bastions, Speicies, Spells
-
-## Bugs fixed:
--	`/origin species Dhampir`: "Image not found. Please check the path." fixed (see Commands category)
-
-# Spellcaster v2.0.1 Release Notes
-## Application
-### Minor changes
--	"House Rules" thread link in `?gamepolicy` has changed due to remodelling of the Discord server
--	added link to "Release Notes" in About window.
--	converted Background images to .jpeg reducing size by 28.4 MB
-
-## Commands
--	Restructured `/class bard features` to the liking of Artificer for image attachment
--	Restructured `/class paladin features` to the liking of Artificer for image attachment
--	Fix: `/roll` command returning "Invalid number of dice" when entered A/D for number of dice
--	`/gear poison` is now limited to "Dungeon Master" role only
--	`/origin background` now includes source
-
-## Content
--	added all subclasses from "Ravenloft: The Horrors Within (2026)"
--	added all background from "Ravenloft: The Horrors Within (2026)"
--	added all subclasses from "Forgotten Realms: Heroes of Faerun (2025)"
--	added all background from "Forgotten Realms: Heroes of Faerun (2025)"
--	added all background from "Eberron: Forge of the Artificer (2025)"
-
-
-# Spellcaster v2.0.0 Release Notes
-## Application
-- 	New UI
-- 	Automatic Update
-- 	Explicit version control
-
-### Optimization
-- 	Restructured `/random magicitem` and `/random hoard` to include DndBeyond Drops
-- 	Magic Items with rarity "varies" have been split into several items with relevant rarity. `/magic_item` has been adjusted to retain images and thumbnails population
-- 	optimized `/magicitem` and `/random magicitem` commands to call for an external MagicItemInvoker function
-- 	restructured `BotCommands` class for better "Commands in DMs" control implementation
-- 	trimmed `using` across various classes
-
-## Content
-- 	added species from "Eberron: Forge of the Artificer (2025)"
--	added species from "Ravenloft: The Horrors Within (2026)"
+- Added Spells from:
+-	Tasha's Cauldron of Everything [Legacy]
+-	Fizban's Treasury of Dragons [Legacy]
