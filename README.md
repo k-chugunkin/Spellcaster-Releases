@@ -1,3 +1,18 @@
+# Spellcaster v2.3.1 [HotFix] Release Notes
+## Application
+ - Fix: Not possible to take away focus from the text area of About Window.
+
+## Content
+ - PHB Errata (7 Oct 2026) implemented
+ - A thorough analysis of dictionaries (spells, feats, magic items, etc.) has been perforned and multiple entries corrected
+
+### Legacy Content
+- Magic Items from Fizban's Treasury of Dragons [Legacy] added
+
+---
+
+<sub>This release is a hot fix of the predecessing big release. For more information on the new features and content in the bot, please refer to Release Notes for v2.3.0 below.</sub>
+
 # Spellcaster v2.3.0 Release Notes
 
 ## Application
