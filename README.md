@@ -1,3 +1,25 @@
+# Spellcaster v2.3.2 Release Notes
+## Application
+ - Fix: Not possible to take away focus from the text area of About Window.
+ - Fix: Some commands make the bot thinking infinitely if invalid value entered
+ - Fix: Bot crashes when a command requiring "Dungeon Master" role is called in a direct messages.
+ - Magic Items with with over 4096 characters no longer rely on .txt files - description is posted in multiple consequent messages
+ - `/ready` command restructured and group 3 added
+ - `/roll` command error messages are "ephemeral" now
+
+## Content
+ - PHB Errata (7 Oct 2026) implemented
+ - Artifacts added
+ - A thorough analysis of dictionaries (spells, feats, magic items, etc.) has been perforned and multiple entries corrected
+ - Multiple missing thumbnails for Magic Items added
+
+### Legacy Content
+- Magic Items from "Bigby Presents: Glory of the Giants" [Legacy] added
+- Magic Items from Eberron: Rising from the Last War [Legacy] added
+- Magic Items from Fizban's Treasury of Dragons [Legacy] added
+- Magic Items, Gear, Siege Equipment from "Dragonlance: Shadow of the Dragon Queen" [Legacy] added
+- Magic Items from Waterdeep: Dragon Heist [Legacy] added
+
 # Spellcaster v2.3.1 [HotFix] Release Notes
 ## Application
  - Fix: Not possible to take away focus from the text area of About Window.
