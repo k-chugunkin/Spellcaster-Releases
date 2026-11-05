@@ -1,7 +1,9 @@
 # Spellcaster v2.3.3 Release Notes
 ## Application
 `/class [class] feature` commands amended to accommodate subclasses without thumbnails
+
 `/weapon` command amended to accommodate items without thumbnails
+
 `/origin species` restructured to destinguish thumbnails from images
 
 ## Content
