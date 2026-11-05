@@ -1,5 +1,30 @@
 # Spellcaster v2.3.2 Release Notes
 ## Application
+`/class [class] feature` commands amended to accommodate subclasses without thumbnails
+`/weapon` command amended to accommodate items without thumbnails
+`/origin species` restructured to destinguish thumbnails from images
+
+## Content
+- D&D Beyond Drops (November 2026) added
+
+### D&D: World of Warcraft
+Only character options allowed by "Adventurers League" and "Legends of Greyhawk" Organized Play added:
+- subclasses
+- feats (not all)
+- Battle Master Fighter Maneuvers
+
+*For more information, please refer to https://www.dndbeyond.com/posts/2279-organized-play-update-dungeons-dragons-world-of*
+
+### Minor Content changes
+- Additional thumbnails for Magic Items added (recently added at D&D Beyond)
+- "Level 3 Rogue [Thief]" description corrected
+
+### Legacy Content
+- Magic Items from "Vecna: Eve of Ruin" [Legacy] added
+- Magic Items from "Phandelver and Below: The Shattered Obelisk" [Legacy] added
+
+# Spellcaster v2.3.2 Release Notes
+## Application
  - Fix: Not possible to take away focus from the text area of About Window.
  - Fix: Some commands make the bot thinking infinitely if invalid value entered
  - Fix: Bot crashes when a command requiring "Dungeon Master" role is called in a direct messages.
@@ -36,7 +61,6 @@
 <sub>This release is a hot fix of the predecessing big release. For more information on the new features and content in the bot, please refer to Release Notes for v2.3.0 below.</sub>
 
 # Spellcaster v2.3.0 Release Notes
-
 ## Application
 -	New theme: "D&DxWoW"
 -	"Commands" button renamed to "Bot Info" and now displayes Commands and Sources
